@@ -22,7 +22,7 @@ public class TEST {
         Start_Logging a = new Start_Logging();
         AddLog b = new AddLog();
 
-        a.action("C:\\Temp\\logs",true,"BOT NAME","DEV","ef","myMainTask");
+        a.action("C:\\Temp\\logs",true,"BOT NAME","DEV","sf","myMainTask");
 
         b.action("currTask","SUCCESS",null,"MY MESSAGE",true);
         b.action("currTask","INFO","","MY MESSAGE",false);

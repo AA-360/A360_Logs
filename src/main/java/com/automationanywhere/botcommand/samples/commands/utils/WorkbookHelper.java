@@ -4,6 +4,7 @@ import com.automationanywhere.botcommand.data.Value;
 import com.automationanywhere.botcommand.data.impl.StringValue;
 import com.automationanywhere.botcommand.exception.BotCommandException;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.openxml4j.util.ZipSecureFile;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -40,6 +41,7 @@ public class WorkbookHelper {
             }
             FileInputStream fis = new FileInputStream(myFile);
 
+            ZipSecureFile.setMinInflateRatio(0);
             XSSFWorkbook myWorkBook = new XSSFWorkbook(fis);
             this.wb = myWorkBook;
         }catch (IOException e){

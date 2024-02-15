@@ -4,8 +4,8 @@
     "description": "",
     "group": "com.automationanywhere",
     "artifactName": "Logs_Uts",
-    "packageVersion": "2.2-20230408-121553",
-    "codeVersion": "2.2-20230408-121553",
+    "packageVersion": "2.3-20240215-125708",
+    "codeVersion": "2.3-20240215-125708",
     "author": "",
     "commands": [
         {
